@@ -3,7 +3,7 @@ from operator import itemgetter
 from pprint import pformat
 import pydot
 from IPython.display import Image,display
-from newgraph import create
+from graphics_turtle import create
 
 class Node(namedtuple('Node', 'location left_child right_child')):
     def __repr__(self):

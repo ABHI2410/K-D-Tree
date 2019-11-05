@@ -1,7 +1,7 @@
 from kdtree import *
 import tkinter as tk
 from tkinter import *
-from extratree import *
+from nn_search import *
 
 root= tk.Tk()
 
